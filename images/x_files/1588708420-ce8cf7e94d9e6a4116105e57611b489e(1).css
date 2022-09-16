@@ -1,0 +1,35 @@
+/************************
+ * Color Background *****
+************************/
+html.sm-user-ui  {
+        background-size: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    html.sm-user-ui  {
+        background-size: auto;
+    }
+}
+        .sm-user-ui .sm-page-content > .sm-page-layout > .sm-page-layout-region-header {
+    background-color: #ffffff;
+    }
+.sm-tile-content,
+.sm-lightbox-v2-photo {
+	border-radius: 5px
+}
+
+.sm-page-layout > .sm-page-layout-region > .sm-page-layout-region-top {
+  min-height: 66px;
+}
+
+.sm-page-layout > .sm-page-layout-region > .sm-page-layout-region-top .sm-page-widget-content {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 1023px) {
+  
+  .sm-page-layout > .sm-page-layout-region > .sm-page-layout-region-top {
+    /*min-height: 112px;*/
+  }
+}
