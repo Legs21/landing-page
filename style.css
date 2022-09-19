@@ -116,6 +116,11 @@ body {
     color: #e5e7eb;
 }
 
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
 
 .list {
     font-size: 18px;
